@@ -118,7 +118,7 @@ correct_answers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 puts questionnaire[0][:question]
 puts questionnaire[0][:answer_choices]
 user_answer = gets.chomp
-if user_answer != "D"
+if user_answer.downcase != "d"
 	correct_answers.pop
 	puts "NOPE NOPE NOPE"
 else
@@ -128,7 +128,7 @@ end
 puts questionnaire[1][:question]
 puts questionnaire[1][:answer_choices]
 user_answer = gets.chomp
-if user_answer != "C"
+if user_answer.downcase != "c"
 	correct_answers.pop
 	puts "YOU SERIOUS?"
 else
@@ -138,7 +138,7 @@ end
 puts questionnaire[2][:question]
 puts questionnaire[2][:answer_choices]
 user_answer = gets.chomp
-if user_answer != "A"
+if user_answer.downcase != "a"
 	correct_answers.pop
 	puts "NOPE NOPE NOPE"
 else
@@ -148,7 +148,7 @@ end
 puts questionnaire[3][:question]
 puts questionnaire[3][:answer_choices]
 user_answer = gets.chomp
-if user_answer != "A"
+if user_answer.downcase != "a"
 	correct_answers.pop
 	puts "HAHAHA. NOPE."
 else
@@ -158,7 +158,7 @@ end
 puts questionnaire[4][:question]
 puts questionnaire[4][:answer_choices]
 user_answer = gets.chomp
-if user_answer != "B"
+if user_answer.downcase != "b"
 	correct_answers.pop
 	puts "WHAT A TRAINWRECK"
 else
@@ -168,7 +168,7 @@ end
 puts questionnaire[5][:question]
 puts questionnaire[5][:answer_choices]
 user_answer = gets.chomp
-if user_answer != "B"
+if user_answer.downcase != "b"
 	correct_answers.pop
 	puts "WHAT? NO!"
 else
@@ -178,7 +178,7 @@ end
 puts questionnaire[6][:question]
 puts questionnaire[6][:answer_choices]
 user_answer = gets.chomp
-if user_answer != "A"
+if user_answer.downcase != "a"
 	correct_answers.pop
 	puts "JESUS CHRIST NO"
 else
@@ -188,7 +188,7 @@ end
 puts questionnaire[7][:question]
 puts questionnaire[7][:answer_choices]
 user_answer = gets.chomp
-if user_answer != "C"
+if user_answer.downcase != "c"
 	correct_answers.pop
 	puts "DID YOU JUST GET HERE, SON?"
 else
@@ -198,7 +198,7 @@ end
 puts questionnaire[8][:question]
 puts questionnaire[8][:answer_choices]
 user_answer = gets.chomp
-if user_answer != "B"
+if user_answer.downcase != "b"
 	correct_answers.pop
 	puts "YOU ARE BAD AND SHOULD FEEL BAD"
 else
@@ -208,7 +208,7 @@ end
 puts questionnaire[9][:question]
 puts questionnaire[9][:answer_choices]
 user_answer = gets.chomp
-if user_answer != "A"
+if user_answer.downcase != "a"
 	correct_answers.pop
 	puts "KISS YOUR GAINS GOODBYE"
 else
