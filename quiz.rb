@@ -227,9 +227,12 @@ numcorrect = correct_answers.size
 if numcorrect.between?(7, 9)
 	puts "So close!"
 elsif numcorrect.between?(4, 6)
-	puts "Shameful display"
-elsif numcorrect.between?(0, 3)
-	puts "Beyond redemption"
+	puts "Shameful display!"
+elsif numcorrect.between?(1, 3)
+	puts "Beyond redemption!"
+elsif numcorrect == 0
+	puts "Commit sudoku."
+	
 end
 
 
