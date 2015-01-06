@@ -63,7 +63,7 @@ questionnaire = [
 			"A. The Notebook",
 			"B. Pulp Fiction",
 			"C. Australia",
-			"D. The Count of Monte Christo"
+			"D. The Count of Monte Cristo"
 		]
 	},
 	{
