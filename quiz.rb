@@ -29,7 +29,7 @@ questionnaire = [
 		answer: "A",
 		answer_choices: [
 			"A. ain't nothing to fuck with",
-			"B. provides sound financial advice",
+			"B. says credit rules everything around you",
 			"C. disregards neck protection",
 			"D. forgets the ruckus"
 		]
